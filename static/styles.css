@@ -1,0 +1,148 @@
+body {
+    font-family: Montserrat, sans-serif;
+    background-color: hsl(0, 0%, 0%);
+    /* Black background */
+    color: #f5cc01;
+    /* Yellow text */
+    text-align: center;
+    padding: 20px;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    background: #7acbee;
+    /* Dark grey background */
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 30px rgba(91, 22, 218, 0.6);
+    /* Deeper shadow for a modern look */
+}
+
+h1 {
+    color: #000000;
+    /* Yellow text */
+    font-size: 3rem;
+    /* Increased font size */
+    margin-top: 20px;
+    font-weight: 700;
+    /* Bolder text */
+    letter-spacing: 2px;
+    /* Spacing for a stylish look */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    /* Text shadow for depth */
+}
+
+.description {
+    color: #ffffff;
+    /* White text */
+    font-size: 1.3rem;
+    /* Slightly larger font size */
+    margin-top: 15px;
+    font-weight: 300;
+    /* Lighter text */
+    letter-spacing: 1px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.logo {
+    max-width: 120px;
+    /* Slightly larger logo */
+    margin: 0 auto 30px auto;
+    display: block;
+    border-radius: 40%;
+    /* Rounded logo for a modern feel */
+    border: 6px solid #f5cc01;
+    /* Yellow border */
+}
+
+.upload-form {
+    margin-top: 30px;
+    background: #2a2a2a;
+    /* Slightly lighter grey for contrast */
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    /* Softer shadow */
+    color: #f5cc01;
+    /* Yellow text */
+}
+
+input[type="file"] {
+    margin: 15px 0;
+    background: #000;
+    color: #f5cc01;
+    /* Yellow text */
+    border: 2px solid #f5cc01;
+    /* Yellow border */
+    border-radius: 5px;
+    padding: 8px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button {
+    background-color: #f5cc01;
+    /* Yellow button */
+    color: #000;
+    /* Black text */
+    padding: 12px 25px;
+    /* Larger button padding */
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    /* Larger font size */
+    font-weight: 600;
+    /* Bolder text */
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    /* Smooth hover transition */
+}
+
+button:hover {
+    background-color: #ffdd00;
+    /* Lighter yellow on hover */
+}
+
+.result-container {
+    margin-top: 40px;
+}
+
+.result-container h3 {
+    color: #f5cc01;
+    /* Yellow text */
+    font-size: 1.5rem;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.result-container img,
+.result-container video {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-top: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+}
+
+video {
+    border: 3px solid #f5cc01;
+    /* Yellow border */
+    border-radius: 10px;
+}
+
+p.detected_message {
+    font-size: 1.2rem;
+    margin-top: 20px;
+    color: #ffffff;
+    /* White text */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+footer {
+    text-align: center;
+    margin-top: 50px;
+    color: #f5cc01;
+    /* Yellow color as per company style */
+    font-family: Montserrat, sans-serif;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
