@@ -1,4 +1,6 @@
+python-3.9.12
 Flask==2.3.2
 opencv-python==4.8.0.74
-ultralytics==8.0.20  # YOLOv8
+ultralytics==8.2.95 # YOLOv8
 werkzeug==2.3.3
+
