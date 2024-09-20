@@ -1,5 +1,3 @@
 Flask==2.3.2
-opencv-python-headless==4.8.0.74
-ultralytics==8.2.95 # YOLOv8
-werkzeug==2.3.3
-
+opencv-python-headless==4.8.0.74  # Consider using the headless version for deployment
+ultralytics==8.2.95
